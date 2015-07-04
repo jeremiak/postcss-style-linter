@@ -1,0 +1,16 @@
+{
+  "name": "postcss-linter-prototype",
+  "version": "0.0.0",
+  "description": "playing around with using postcss as a css linter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jeremiak",
+  "license": "ISC",
+  "repository": "git@github.com:jeremiak/postcss-style-linter.git",
+  "dependencies": {
+    "postcss": "^4.1.14"
+  }
+}
