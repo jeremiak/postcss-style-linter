@@ -6,8 +6,8 @@ var ensureNoIndentSelectors = postcss.plugin('no-selector-indentation', function
     return function(css) {
       css.eachRule(function(rule) {
         rule.selectors = rule.selectors.map(function(a, i) {
-          if ( i != 0 ) return '\n' + a;
-          return a;
+          if ( i === 0 ) return a;
+          return '\n' + a;
         });
       });
     };
